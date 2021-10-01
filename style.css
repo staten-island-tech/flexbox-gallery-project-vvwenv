@@ -1,0 +1,14 @@
+html,
+body,
+* {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+.Yes {
+  display: flex;
+  font-size: 50px;
+}
+.Test {
+  border: 2px solid black;
+  width: 28%;
+}
