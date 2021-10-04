@@ -7,13 +7,26 @@ body,
   font-size: 62.5%;
 }
 .Ark {
-  display: flex;
   font-size: 5rem;
-  text-align: center;
-  width: 100vw;
+  display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .Creature {
-  border: 2px solid black;
   width: 28%;
+}
+#One {
+  border: 2px solid black;
+  flex-grow: 2;
+  height: 200px;
+}
+#Two {
+  border: 2px solid black;
+  flex-grow: 2;
+  height: 200px;
+}
+#Three {
+  border: 2px solid black;
+  flex-grow: 2;
+  height: 200px;
 }
