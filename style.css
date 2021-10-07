@@ -2,18 +2,19 @@ html,
 body,
 * {
   padding: 0;
-  margin: 2;
+  margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
 }
 .Ark-gallery {
   font-size: 60px;
-  justify-content: space-around;
+  justify-content: center;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
   width: 80%;
 }
-.Group-card {
-  border: 0.5rem solid black;
+h1 {
+  font-size: 50px;
+  margin-left: 72rem;
 }
