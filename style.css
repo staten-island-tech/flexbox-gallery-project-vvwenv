@@ -2,19 +2,32 @@ html,
 body,
 * {
   padding: 0;
-  margin: 0;
+  margin: 10;
   box-sizing: border-box;
   font-size: 62.5%;
+  font-family: "Permanent Marker", cursive;
+  background-color: #800000;
 }
 .Ark-gallery {
-  font-size: 60px;
+  font-size: 100px;
   justify-content: center;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
-  width: 80%;
+  background-color: white;
+}
+.Group-card {
+  box-shadow: 10px 10px 10px black;
+  width: 26%;
+}
+.Creature-card {
+  margin-top: 4rem;
+}
+.Card-img {
+  margin-bottom: 10rem;
+  width: 20vw;
 }
 h1 {
-  font-size: 50px;
-  margin-left: 72rem;
+  font-size: 80px;
+  text-align: center;
 }
