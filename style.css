@@ -2,35 +2,30 @@ html,
 body,
 * {
   padding: 0;
-  margin: 12;
+  margin: 10;
   box-sizing: border-box;
   font-size: 62.5%;
   font-family: "Permanent Marker", cursive;
-}
-html {
   background-color: #800000;
 }
 .Ark-gallery {
-  font-size: 9vw;
+  font-size: 100px;
   justify-content: center;
   text-align: center;
-  align-items: center;
   display: flex;
   flex-wrap: wrap;
   background-color: white;
-  padding-top: 15px;
-  padding-bottom: 15px;
 }
 .Group-card {
   box-shadow: 10px 10px 10px black;
-  width: 30%;
-  background-color: #800000;
+  width: 26%;
 }
 .Creature-card {
   margin-top: 4rem;
 }
 .Card-img {
-  width: 26vw;
+  margin-bottom: 10rem;
+  width: 20vw;
 }
 h1 {
   font-size: 80px;
