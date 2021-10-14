@@ -8,13 +8,26 @@ body,
   font-family: "Permanent Marker", cursive;
   background-color: #800000;
 }
-.Ark-gallery {
+
+.Gallery {
   font-size: 100px;
   justify-content: center;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
   background-color: white;
+  display: none;
+}
+.Button::before {
+  content: "\1F995";
+  font-size: 25px;
+  border: black;
+  margin: 5px;
+}
+.Button:hover {
+  transform: scale(1.2);
+}
+.Button:active {
 }
 .Group-card {
   box-shadow: 10px 10px 10px black;
