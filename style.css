@@ -2,38 +2,45 @@ html,
 body,
 * {
   padding: 0;
-  margin: 0;
+  margin: 10;
   box-sizing: border-box;
   font-size: 62.5%;
   font-family: "Permanent Marker", cursive;
-}
-html {
   background-color: #800000;
 }
+
 .Gallery {
-  font-size: 8vw;
+  font-size: 100px;
   justify-content: center;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
   background-color: white;
-  padding: 25;
+  display: none;
+}
+.Button::before {
+  content: "\1F995";
+  font-size: 25px;
+  border: black;
+  margin: 5px;
+}
+.Button:hover {
+  transform: scale(1.2);
+}
+.Button:active {
 }
 .Group-card {
-  box-shadow: 1rem 1rem 1rem black;
+  box-shadow: 10px 10px 10px black;
   width: 26%;
-  margin: 25;
-  background-color: #800000;
 }
 .Creature-card {
-  margin-top: 3rem;
-  align-content: center;
+  margin-top: 4rem;
 }
 .Card-img {
-  margin-bottom: 4rem;
-  width: 24vw;
+  margin-bottom: 10rem;
+  width: 20vw;
 }
 h1 {
-  font-size: 8vw;
+  font-size: 80px;
   text-align: center;
 }
