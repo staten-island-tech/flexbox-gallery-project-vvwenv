@@ -24,6 +24,10 @@ body,
   width: 26%;
   margin: 25;
   background-color: #800000;
+  animation-name: SlideFromLeft;
+  animation-duration: 5s;
+  transition: margin-right 1s ease-in-out;
+  transition-duration: 2s;
 }
 .Group-card:hover {
   transform: scale(1.1);
@@ -48,9 +52,38 @@ h1 {
   text-align: center;
   background-color: black;
   color: #800000;
+  animation-name: SlideFromRight;
+  animation-duration: 5s;
+  transition: margin-left 1s ease-in-out;
+  transition-duration: 2s;
 }
 h1:hover {
   text-shadow: 0.4rem 0.4rem 0.4rem #380000;
   background-color: #800000;
   color: #380000;
+}
+@keyframes SlideFromRight {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+@keyframes SlideFromLeft {
+  from {
+    margin-right: 100%;
+    width: 300%;
+  }
+  to {
+    margin-right: 0%;
+    width: 100%;
+  }
+}
+@media (max-width: 1080px) {
+  .Group-card {
+    width: 90%;
+  }
 }
