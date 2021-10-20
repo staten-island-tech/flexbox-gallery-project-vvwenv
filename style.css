@@ -21,7 +21,7 @@ body,
 }
 .Group-card {
   box-shadow: 1rem 1rem 1rem black;
-  width: 26%;
+  width: 29%;
   margin: 25;
   background-color: #800000;
   animation-name: SlideFromLeft;
@@ -45,7 +45,7 @@ body,
 }
 .Card-img {
   margin-bottom: 4rem;
-  width: 24vw;
+  width: 29vw;
 }
 h1 {
   font-size: 8vw;
@@ -82,8 +82,33 @@ h1:hover {
     width: 100%;
   }
 }
-@media (max-width: 1080px) {
+@media screen and (max-width: 1500px) {
+  .Card-img {
+    width: 40vw;
+  }
+  .Group-card {
+    width: 45%;
+    font-size: 10vw;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .Card-img {
+    width: 80vw;
+  }
   .Group-card {
     width: 90%;
+    font-size: 20vw;
+  }
+  h1 {
+    font-size: 20vw;
+  }
+}
+@media screen and (max-width: 768px) and (orientation: landscape) {
+  .Card-img {
+    width: 80vw;
+  }
+  .Group-card {
+    width: 90%;
+    font-size: 20vw;
   }
 }
