@@ -82,13 +82,13 @@ h1:hover {
     width: 100%;
   }
 }
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 150rem) {
   .Card-img {
-    width: 40vw;
+    width: 30vw;
   }
   .Group-card {
-    width: 45%;
-    font-size: 10vw;
+    width: 30%;
+    font-size: 7vw;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -97,18 +97,13 @@ h1:hover {
   }
   .Group-card {
     width: 90%;
-    font-size: 20vw;
-  }
-  h1 {
-    font-size: 20vw;
   }
 }
-@media screen and (max-width: 768px) and (orientation: landscape) {
+@media screen and (max-width: 768px) {
   .Card-img {
-    width: 80vw;
+    width: 50vw;
   }
   .Group-card {
     width: 90%;
-    font-size: 20vw;
   }
 }
