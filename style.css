@@ -18,7 +18,7 @@ body,
 }
 .Gallery:hover {
   background-color: black;
-  transition: all 0.3s;
+  transition: all 0.6s;
 }
 .Group-card {
   box-shadow: 1rem 1rem 1rem black;
@@ -45,7 +45,7 @@ body,
 }
 .Creature-card:hover {
   color: black;
-  transition: all 0.3s;
+  transition: all 0.4s;
 }
 .Card-img {
   margin-bottom: 4rem;
@@ -65,7 +65,7 @@ h1:hover {
   text-shadow: 0.4rem 0.4rem 0.4rem #380000;
   background-color: #800000;
   color: #380000;
-  transition: all 0.3s;
+  transition: all 0.8s;
 }
 @keyframes SlideFromRight {
   from {
