@@ -96,15 +96,7 @@ h1:hover {
     font-size: 7vw;
   }
 }
-@media screen and (max-width: 1200px) {
-  .Card-img {
-    width: 80vw;
-  }
-  .Group-card {
-    width: 90%;
-  }
-}
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 77rem) {
   .Card-img {
     width: 50vw;
   }
